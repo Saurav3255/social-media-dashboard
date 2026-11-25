@@ -1,35 +1,43 @@
 # MERN Social Media Dashboard
 
-A ready-to-run social media management and analytics dashboard built with MongoDB, Express, React and Node.js.
+A social media dashboard built using the MERN stack.
 
-## Features
-- JWT authentication
-- Dashboard analytics
-- Social platform overview
-- Create, edit and delete posts
-- Likes, comments and shares
-- Post status: draft, scheduled, published
-- Engagement analytics
-- Notifications
-- User profile
-- Responsive dashboard UI
+## Technologies Used
+- MongoDB
+- Express.js
+- React.js
+- Node.js
+- CSS
 
-## Run
+## Project Structure
 
-### 1. Backend
+- client/ - React frontend
+- server/ - Node.js and Express backend
+
+## Installation
+
+Clone the repository:
+
 ```bash
-cd server
-npm install
-cp .env.example .env
-npm run dev
+git clone https://github.com/Saurav3255/social-media-dashboard.git
 ```
 
-### 2. Frontend
-Open another terminal:
+Install frontend dependencies:
+
 ```bash
 cd client
 npm install
-npm run dev
 ```
 
-Configure MongoDB and JWT_SECRET in `server/.env`.
+Install backend dependencies:
+
+```bash
+cd ../server
+npm install
+```
+
+## Author
+
+Saurav Jha
+
+GitHub: https://github.com/Saurav3255
